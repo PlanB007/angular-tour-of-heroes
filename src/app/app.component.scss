@@ -1,0 +1,24 @@
+@import '../variables.scss';
+
+.wrapper {
+  width: 500px;
+  margin: 0 auto;
+}
+
+nav {
+  a {
+    color: $creme;
+    text-decoration: none;
+    background-color: $navy;
+    border-radius: 4px;
+    padding: 10px;
+    margin-right: 10px;
+    transition: all ease-in 0.2s;
+
+    &:hover {
+      color: $navy;
+      background-color: $creme;
+    }
+  }
+  padding-bottom: 25px;
+}
